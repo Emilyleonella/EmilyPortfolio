@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import { IconName } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav className="navbar">
+      <ul className="navbar-list">
+        {navbarLinks.map((item) => {
+          return (
+            <li className="navbar-item" key={item.title}>
+              <a className="navbar-link" href={item.url}>
+                {item.title}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
