@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Outlet, useRouteMatch, useParams} from "react-r
 const Navbar = ({navbarLinks}) => {
   return (
     <nav className="navbar">
-      <span className="navbar-logo">Emily's Portfolio</span>
+      <span className="navbar-logo">Emily Tamayo</span>
       <ul className="navbar-list">
         {navbarLinks.map((item) => {
           return (

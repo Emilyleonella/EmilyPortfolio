@@ -20,10 +20,11 @@
 .hero-title{
   position:absolute;
   bottom: 60%;
-  right: 25%;
+  right: 22%;
   color:white;
   font-size: 4rem;
   padding: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
@@ -42,6 +43,7 @@
 
 .navbar-logo{
   color:white;
+  font-family: 'MonteCarlo', cursive;
   font-size: 2.5rem;
 }
 
@@ -52,7 +54,7 @@ list-style: none;
     white-space: nowrap;
   }
    .navbar-link{
-     font-size: 0.85rem;
+     font-size: 1.5rem;
      text-decoration: none;
      color:white;
      text-align: center;
