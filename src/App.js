@@ -1,7 +1,8 @@
 import "./App.css";
-import heroimage from "./assests/heroImg.jpg";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Project from "./pages/Project";
 
 const navbarLinks = [
   { url: "/", title: "Home" },
@@ -9,10 +10,15 @@ const navbarLinks = [
 ];
 function App() {
   return (
-    <div className="App">
+    <Router>
+    <div >
       <Navbar navbarLinks={navbarLinks}/>
-      <Hero imageSrc={heroimage} />
+      <Routes>
+        <Route path="/" element={<Homepage/>}></Route>
+        <Route path="/Projects" element={<Project/>}></Route>
+      </Routes>
     </div>
+    </Router>
   );
 }
 
