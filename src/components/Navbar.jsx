@@ -1,7 +1,7 @@
 import React from "react";
 import { IconName } from "react-icons/fi";
 
-const Navbar = () => {
+const Navbar = ({navbarLinks}) => {
   return (
     <nav className="navbar">
       <span className="navbar-logo">Emily's Portfolio</span>
