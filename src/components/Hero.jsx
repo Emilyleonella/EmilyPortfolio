@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({imageSrc}) => {
   return (
-    <div>Hero</div>
+    <div className='hero'>
+      <img src={imageSrc} alt="desk_setup" className='hero-img'/>
+      <h1 className='hero-title'>Welcome to my Portfolio</h1>
+
+    </div>
   )
 }
 
