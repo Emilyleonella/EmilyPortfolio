@@ -4,6 +4,7 @@ import { IconName } from "react-icons/fi";
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <span className="navbar-logo">Emily's Portfolio</span>
       <ul className="navbar-list">
         {navbarLinks.map((item) => {
           return (
