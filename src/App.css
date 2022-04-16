@@ -5,6 +5,14 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.App {
+  background-color: black;
+}
+
+html {
+  background-color: black;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -99,10 +107,12 @@
   align-items: center;
   padding: 20px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .slider-title {
   text-align: center;
+  color: whitesmoke;
 }
 
 /*# sourceMappingURL=App.css.map */
