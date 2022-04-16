@@ -72,4 +72,24 @@
   transition: 250ms;
 }
 
+.slider {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.imgOne {
+  width: 60%;
+}
+
+.slider-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=App.css.map */
