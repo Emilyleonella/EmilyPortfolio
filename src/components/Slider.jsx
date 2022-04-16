@@ -33,8 +33,8 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
   };
 
   return (
-    <div className="slider">
-      {renderContent()} ref={ref}
+    <div className="slider" ref={ref}>
+      {renderContent()} 
     </div>
   );
 };
