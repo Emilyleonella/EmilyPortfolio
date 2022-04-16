@@ -1,4 +1,4 @@
-.app {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@
 
 .hero-title {
   position: absolute;
-  bottom: 60%;
+  bottom: 67%;
   right: 22%;
   color: white;
   font-size: 4rem;
