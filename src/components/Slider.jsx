@@ -1,7 +1,13 @@
 import React from "react";
-import '../partials/_slider.scss'
+import "../partials/_slider.scss";
+import { useInView } from "react-intersection-observer";
 
 const Slider = ({ imageSrc, title, subtitle, flipped }) => {
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0.4,
+  });
+
   const renderContent = () => {
     if (!flipped) {
       return (
@@ -26,7 +32,11 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
     }
   };
 
-  return <div className="slider">{renderContent()}</div>;
+  return (
+    <div className="slider">
+      {renderContent()} ref={ref}
+    </div>
+  );
 };
 
 export default Slider;
