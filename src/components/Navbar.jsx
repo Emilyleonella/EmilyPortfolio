@@ -24,7 +24,7 @@ const Navbar = ({ navbarLinks }) => {
         <FiMenu size={25} className="navBar-Menu" onClick={toggleMenuClick} />
       )}
 
-      <ul className={menuClicked ? "navbar-list"}>
+      <ul className={menuClicked ? "navbar-list" : "navbar-list navbar-list_active"}>
         {navbarLinks.map((item) => {
           return (
             <li className="navbar-item" key={item.title}>

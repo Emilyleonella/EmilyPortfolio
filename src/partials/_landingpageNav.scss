@@ -40,7 +40,7 @@ html{
   top: 0px;
   height: 70px;
   background-color: black;
-  opacity: 0.75;
+  opacity: 0.70;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,10 +123,10 @@ list-style: none;
   border-radius: 0%;
   background-color: black;
   opacity: 0.75;
-  :hover{
+  
+}
+.navbar-link:hover{
     opacity: 0.9;
-
-  }
 }
 
   .navBar-Menu{
