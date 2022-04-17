@@ -1,11 +1,29 @@
-import React from "react";
-import { IconName } from "react-icons/fi";
-import {BrowserRouter as Router, Outlet, useRouteMatch, useParams} from "react-router-dom";
+import React, { useState } from "react";
+import { FiMenu, FiX } from "react-icons/fi";
+import {
+  BrowserRouter as Router,
+  Outlet,
+  useRouteMatch,
+  useParams,
+} from "react-router-dom";
 
-const Navbar = ({navbarLinks}) => {
+const Navbar = ({ navbarLinks }) => {
+  const [menuClicked, setmenuClicked] = useState(false);
+
+  const toggleMenuClick = () => {
+    setmenuClicked(!menuClicked);
+  };
+
   return (
     <nav className="navbar">
       <span className="navbar-logo">Emily Tamayo</span>
+
+      {menuClicked ? (
+        <FiX size={25} className="navBar-Menu" onClick={toggleMenuClick} />
+      ) : (
+        <FiMenu size={25} className="navBar-Menu" onClick={toggleMenuClick} />
+      )}
+
       <ul className="navbar-list">
         {navbarLinks.map((item) => {
           return (
