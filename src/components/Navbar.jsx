@@ -19,9 +19,9 @@ const Navbar = ({ navbarLinks }) => {
       <span className="navbar-logo">Emily Tamayo</span>
 
       {menuClicked ? (
-        <FiX size={25} className="navBar-Menu" onClick={toggleMenuClick} />
-      ) : (
         <FiMenu size={25} className="navBar-Menu" onClick={toggleMenuClick} />
+      ) : (
+        <FiX size={25} className="navBar-Menu" onClick={toggleMenuClick} />
       )}
 
       <ul className={menuClicked ? "navbar-list" : "navbar-list navbar-list_active"}>
