@@ -4,8 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 const Slider = ({ imageSrc, title, subtitle, flipped }) => {
   const { ref, inView } = useInView({
-    /* Optional options */
-    threshold: 0.4,
+  threshold: 0.4,
   });
 
   const renderContent = () => {
@@ -24,7 +23,7 @@ const Slider = ({ imageSrc, title, subtitle, flipped }) => {
         <>
           <div className="slider-info">
             <h1 className="slider-title">{title}</h1>
-            <p>{subtitle}</p>
+            <p className="slider-info">{subtitle}</p>
           </div>
           <img src={imageSrc} alt="Emily_Picture" className="imgOne" />
         </>

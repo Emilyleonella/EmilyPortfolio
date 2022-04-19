@@ -20,7 +20,7 @@ const Homepage = () => {
         imageSrc={myPic2}
         title={"About Me"}
         subtitle={
-          "dwfwehfowhnwijf fjwief we fowe fwoe fwoef pe fpwe fjof wpe jfpw f"
+          "Hello World"
         }
         flipped={true}
       />
