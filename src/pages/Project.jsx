@@ -3,8 +3,7 @@ import Slider from '../components/Slider'
 import gateway from '../assests/Gateway_home.png'
 import pennyjuice from '../assests/Pennyjuice.png'
 import ecom from '../assests/ecom.png'
-import heroCode from '../assests/laptop-code.jpg'
-import HeroTwo from '../components/HeroTwo'
+import AquaAlert from '../assests/AquaAlert.png'
 
 const Project = () => {
   return (
@@ -15,14 +14,14 @@ const Project = () => {
         imageSrc={gateway}
         title={"Gateway Project"}
         subtitle={
-          <a className='web-link' href="https://gateway-project.emilyleonella.repl.co/index.html"> Check it out</a>
+          <button className='web-link-btn' href="https://gateway-project.emilyleonella.repl.co/index.html"> Check it out</button>
         }
       />
       <Slider
         imageSrc={pennyjuice}
         title={"Revision Project"}
         subtitle={
-          <a className='web-link' href="https://avpenny.herokuapp.com/contact"> Check it out</a>
+          <button className='web-link-btn' href="https://avpenny.herokuapp.com/contact"> Check it out</button>
         }
         flipped={true}
       />
@@ -30,10 +29,17 @@ const Project = () => {
         imageSrc={ecom}
         title={"E-commerce Project"}
         subtitle={
-          <a className='web-link'> Check it out</a>
+          <button className='web-link-btn'> Check it out</button>
         }
       />
-
+      <Slider
+        imageSrc={AquaAlert}
+        title={"Hope Hacks"}
+        subtitle={
+          <button className='web-link-btn' href="https://aquaalert.herokuapp.com/index.html"> Check it out</button>
+        }
+        flipped={true}
+      />  
 
     </div>
   )
