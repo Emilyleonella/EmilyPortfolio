@@ -41,7 +41,6 @@ html{
   top: 0px;
   height: 70px;
   background-color: black;
-  opacity: 0.70;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,4 +148,28 @@ list-style: none;
   }
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
+    .hero-title{
+      font-size: 2.7rem;
+      right: 3%;
+      bottom: 75%;
+    }
+
+    .hero-img{
+      width: 400px;
+      height: 560px;
+      // object-fit: cover;
+      // position: absolute; 
+    }
+    .hero{
+      position: relative;
+      width: 400px;
+      height: 560px;
+    }
+
+}

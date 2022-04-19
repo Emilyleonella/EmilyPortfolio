@@ -42,7 +42,6 @@ html {
   top: 0px;
   height: 70px;
   background-color: black;
-  opacity: 0.7;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,6 +143,24 @@ html {
     right: 10%;
   }
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .hero-title {
+    font-size: 2.7rem;
+    right: 3%;
+    bottom: 75%;
+  }
+
+  .hero-img {
+    width: 400px;
+    height: 560px;
+  }
+
+  .hero {
+    position: relative;
+    width: 400px;
+    height: 560px;
+  }
+}
 .slider {
   display: flex;
   align-items: center;
@@ -183,6 +200,11 @@ html {
   font-size: 2rem;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .slider-info {
+    font-size: 1rem;
+  }
+}
 .hero-two {
   position: relative;
   width: 100%;
@@ -203,6 +225,13 @@ html {
   padding: 20vh;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .Title {
+    font-size: 2.7rem;
+    padding: 10vh;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */
