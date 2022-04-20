@@ -28,7 +28,7 @@ html{
 .hero-title{
   position:absolute;
   bottom: 67%;
-  right: 22%;
+  right: 25%;
   color:white;
   font-size: 6rem;
   padding: 15px;
@@ -85,6 +85,15 @@ list-style: none;
   display: none;
 }
 
+.arrow-down{
+  color: white;
+  position:absolute;
+  bottom: 5%;
+  right: 48.5%;
+  font-size: 11rem;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 
