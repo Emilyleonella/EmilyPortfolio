@@ -1,48 +1,38 @@
-import React from 'react'
-import Slider from '../components/Slider'
-import gateway from '../assests/Gateway_home.png'
-import pennyjuice from '../assests/Pennyjuice.png'
-import ecom from '../assests/ecom.png'
-import AquaAlert from '../assests/AquaAlert.png'
+import React from "react";
+import ProjectTemp from "../components/ProjectTemp";
+import gateway from "../assests/Gateway_home.png";
+import pennyjuice from "../assests/Pennyjuice.png";
+import ecom from "../assests/ecom.png";
+import AquaAlert from "../assests/AquaAlert.png";
 
 const Project = () => {
   return (
-    <div className='App'>
-      {/* <HeroTwo img={heroCode} /> */}
-      <h1 className='Title'>My Projects</h1>
-      <Slider
+    <div className="App">
+      <h1 className="Title">My Projects</h1>
+      <ProjectTemp
         imageSrc={gateway}
         title={"Gateway Project"}
-        subtitle={
-          <button className='web-link-btn' href="https://gateway-project.emilyleonella.repl.co/index.html"> Check it out</button>
-        }
+        link={"https://gateway-project.emilyleonella.repl.co/index.html"}
       />
-      <Slider
+      <ProjectTemp
         imageSrc={pennyjuice}
-        title={"Revision Project"}
-        subtitle={
-          <button className='web-link-btn' href="https://avpenny.herokuapp.com/contact"> Check it out</button>
-        }
+        title={"Revision Site"}
+        link={"https://avpenny.herokuapp.com/contact"}
         flipped={true}
       />
-      <Slider
+      <ProjectTemp
         imageSrc={ecom}
         title={"E-commerce Project"}
-        subtitle={
-          <button className='web-link-btn'> Check it out</button>
-        }
       />
-      <Slider
+       <ProjectTemp
         imageSrc={AquaAlert}
-        title={"Hope Hacks"}
-        subtitle={
-          <button className='web-link-btn' href="https://aquaalert.herokuapp.com/index.html"> Check it out</button>
-        }
+        title={"Hopes Hack"}
+        link={"https://aquaalert.herokuapp.com/index.html"}
         flipped={true}
-      />  
+      />
 
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

@@ -227,6 +227,21 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+.web-link-btn {
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10%;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.web-link-btn:hover {
+  background-color: #aaa5a5;
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .Title {
     font-size: 2.7rem;

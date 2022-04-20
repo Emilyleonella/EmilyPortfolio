@@ -20,6 +20,20 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.web-link-btn{
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10%;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.web-link-btn:hover{
+  background-color: rgb(170, 165, 165);
+}
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
