@@ -21,17 +21,14 @@ const Project = () => {
         link={"https://avpenny.herokuapp.com/contact"}
         flipped={true}
       />
+      <ProjectTemp imageSrc={ecom} title={"E-commerce Project"} />
       <ProjectTemp
-        imageSrc={ecom}
-        title={"E-commerce Project"}
-      />
-       <ProjectTemp
         imageSrc={AquaAlert}
         title={"Hopes Hack"}
         link={"https://aquaalert.herokuapp.com/index.html"}
         flipped={true}
       />
-    <Up/>
+      <Up />
     </div>
   );
 };

@@ -5,7 +5,7 @@ const Hero = ({imageSrc}) => {
     <div className='hero'>
       <img src={imageSrc} alt="desk_setup" className='hero-img'/>
       <h1 className='hero-title'>Welcome to my Portfolio</h1>
-      <fig><FiChevronsDown  className='arrow-down'/></fig>
+      <fig className='fig-con'><FiChevronsDown  className='arrow-down'/></fig>
     </div>
   )
 }
