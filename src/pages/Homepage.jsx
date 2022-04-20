@@ -12,8 +12,7 @@ const Homepage = () => {
       <Slider
         imageSrc={myPic}
         title={"About Me"}
-        subtitle={
-          "I am a Coding Apprentice for Road to Hire who is currently falling in love with the Language of Software Development. I am Innovative, Highly Motivated, Bilingual, and Creative. Experienced in Front-end and Back-end development, and with all stages of the Development Life Cycle for Dynamic Software projects."
+        subtitle={"I am a Coding Apprentice for Road to Hire who is currently falling in love with the world of Software Development. I am Innovative, Highly Motivated, Bilingual, and Creative. Experienced in Front-end and Back-end development, and with all stages of the Software Development Life Cycle for Dynamic Software projects."
         }
       />
       <Slider
