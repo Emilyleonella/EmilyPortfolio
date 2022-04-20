@@ -94,8 +94,16 @@ list-style: none;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
 }
-
-
+.up-cont{
+  display: flex;
+  justify-content: center;
+}
+.up{
+    color: white;
+    font-size: 11rem;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 @media screen and (max-width: 820px){
   .navbar{

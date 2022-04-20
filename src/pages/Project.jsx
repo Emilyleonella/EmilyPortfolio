@@ -4,6 +4,7 @@ import gateway from "../assests/Gateway_home.png";
 import pennyjuice from "../assests/Pennyjuice.png";
 import ecom from "../assests/ecom.png";
 import AquaAlert from "../assests/AquaAlert.png";
+import Up from "../components/Up";
 
 const Project = () => {
   return (
@@ -30,7 +31,7 @@ const Project = () => {
         link={"https://aquaalert.herokuapp.com/index.html"}
         flipped={true}
       />
-
+    <Up/>
     </div>
   );
 };

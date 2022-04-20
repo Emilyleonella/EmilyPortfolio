@@ -4,6 +4,7 @@ import heroimage from "../assests/heroImg.jpg";
 import myPic from "../assests/Emily.jpeg";
 import Slider from "../components/Slider";
 import myPic2 from "../assests/Emily2.jpeg";
+import Up from "../components/Up";
 
 const Homepage = () => {
   return (
@@ -21,6 +22,7 @@ const Homepage = () => {
         subtitle={"Hello World"}
         flipped={true}
       />
+      <Up/>
     </div>
   );
 };
