@@ -18,8 +18,8 @@ const Homepage = () => {
       />
       <Slider
         imageSrc={myPic2}
-        title={"About Me"}
-        subtitle={"Hello World"}
+        title={"Skills"}
+        subtitle={"Proficient in Front-end Technologies such as HTML, CSS, SCSS, JavaScrip. Proficient in Back-end Technologies such as Node.js, Express, MySQL. Proficient in React a Frontend Framework."}
         flipped={true}
       />
       <Up/>
