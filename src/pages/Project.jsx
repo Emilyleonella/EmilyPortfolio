@@ -17,7 +17,7 @@ const Project = () => {
       />
       <ProjectTemp
         imageSrc={pennyjuice}
-        title={"Revision Site"}
+        title={"Penny Juice Redesign"}
         link={"https://avpenny.herokuapp.com/contact"}
         flipped={true}
       />
