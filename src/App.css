@@ -98,7 +98,6 @@ html {
   bottom: 5%;
   font-size: 11rem;
   padding: 15px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .up-cont {
@@ -110,7 +109,11 @@ html {
   color: white;
   font-size: 11rem;
   padding: 15px;
-  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.up:hover {
+  color: gray;
 }
 
 @media screen and (max-width: 820px) {
@@ -173,8 +176,8 @@ html {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .hero-title {
     font-size: 2.7rem;
-    right: 3%;
-    bottom: 75%;
+    right: 6%;
+    bottom: 70%;
   }
 
   .hero-img {
@@ -186,6 +189,18 @@ html {
     position: relative;
     width: 400px;
     height: 560px;
+  }
+
+  .arrow-down {
+    bottom: 2%;
+    font-size: 9rem;
+    padding: 15px;
+  }
+
+  .up {
+    color: white;
+    font-size: 9rem;
+    padding: 15px;
   }
 }
 .slider {
@@ -255,24 +270,36 @@ html {
 }
 
 .web-link-btn {
-  padding: 10px;
+  width: calc(8vw + 1px);
+  height: calc(3vw + 1px);
+  background-image: linear-gradient(90deg, #e5e8eb 0%, #9e9d9a 49%, #4d4a4a7c 80%, #ebeff0 100%);
+  font-size: 1.5rem;
+  font-weight: bolder;
   margin: 10px;
-  font-weight: bold;
-  font-size: 2rem;
   border: none;
-  border-radius: 10%;
-  background-color: gray;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .web-link-btn:hover {
-  background-color: #aaa5a5;
+  animation: slidebg 2s linear infinite;
 }
 
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .Title {
     font-size: 2.7rem;
     padding: 10vh;
+  }
+
+  .web-link-btn {
+    width: 20vw;
+    height: 7vw;
+    font-size: 1rem;
   }
 }
 

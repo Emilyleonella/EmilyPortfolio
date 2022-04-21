@@ -21,19 +21,29 @@
 }
 
 .web-link-btn{
-  padding: 10px;
+  width:calc(8vw + 1px);
+  height:calc(3vw + 1px);
+  background-image: linear-gradient(90deg, #e5e8eb 0%, #9e9d9a 49%, #4d4a4a7c 80%, #ebeff0 100%);
+  font-size:1.5rem;
+  font-weight:bolder;
   margin: 10px;
-  font-weight: bold;
-  font-size: 2rem;
   border: none;
-  border-radius: 10%;
-  background-color: gray;
+  border-radius: 10px;
   cursor: pointer;
 }
-
 .web-link-btn:hover{
-  background-color: rgb(170, 165, 165);
+  animation:slidebg 2s linear infinite;
 }
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+
+
+
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -44,5 +54,10 @@
       font-size: 2.7rem;
       padding: 10vh;
     }
-
+    .web-link-btn{
+      width:20vw;
+      height:7vw;
+      font-size: 1rem;
+    }
+    
   }

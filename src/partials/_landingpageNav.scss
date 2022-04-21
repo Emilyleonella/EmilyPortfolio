@@ -95,7 +95,6 @@ list-style: none;
   bottom: 5%;
   font-size: 11rem;
   padding: 15px;
-  font-family: 'Montserrat', sans-serif;
 }
 .up-cont{
   display: flex;
@@ -104,8 +103,11 @@ list-style: none;
 .up{
     color: white;
     font-size: 11rem;
-    padding: 15px;
-    font-family: 'Montserrat', sans-serif;
+    padding: 15px; 
+    cursor: pointer;
+}
+.up:hover{
+color:gray;
 }
 
 @media screen and (max-width: 820px){
@@ -176,20 +178,29 @@ list-style: none;
 
     .hero-title{
       font-size: 2.7rem;
-      right: 3%;
-      bottom: 75%;
+      right: 6%;
+      bottom: 70%;
     }
 
     .hero-img{
       width: 400px;
       height: 560px;
-      // object-fit: cover;
-      // position: absolute; 
     }
     .hero{
       position: relative;
       width: 400px;
       height: 560px;
     }
+    .arrow-down{
+      bottom: 2%;
+      font-size: 9rem;
+      padding: 15px;
+    }
+    .up{
+      color: white;
+      font-size: 9rem;
+      padding: 15px; 
+  }
+  
 
 }
