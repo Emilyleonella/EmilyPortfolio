@@ -12,7 +12,7 @@ const ProjectTemp = ({ imageSrc, title, link, flipped }) => {
         <>
           <img src={imageSrc} alt="project_screenshot" className="imgOne" />
           <div className="slider-info">
-            <h1 className="slider-title">{title}</h1>
+            <h1 className="project-title">{title}</h1>
             <a target="_blank" href={link}><button className='web-link-btn'>Deployed Site</button> </a>
           </div>
         </>
@@ -21,7 +21,7 @@ const ProjectTemp = ({ imageSrc, title, link, flipped }) => {
       return (
         <>
           <div className="slider-info">
-            <h1 className="slider-title">{title}</h1>
+            <h1 className="project-title">{title}</h1>
             <a  target="_blank" href={link}><button className='web-link-btn'>Deployed Site</button> </a>
           </div>
           <img src={imageSrc} alt="project-screenshot" className="imgOne" />
