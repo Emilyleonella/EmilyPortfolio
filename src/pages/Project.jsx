@@ -13,19 +13,26 @@ const Project = () => {
       <ProjectTemp
         imageSrc={gateway}
         title={"Gateway Project"}
-        link={"https://gateway-project.emilyleonella.repl.co/index.html"}
+        link={"https://emilyleonella.github.io/index.html"}
+        gitHubLink={"https://github.com/Emilyleonella/Emilyleonella.github.io"}
       />
       <ProjectTemp
         imageSrc={pennyjuice}
         title={"Penny Juice Redesign"}
         link={"https://avpenny.herokuapp.com/contact"}
+        gitHubLink={"https://github.com/tloaeza0/pennyjuice"}
         flipped={true}
       />
-      <ProjectTemp imageSrc={ecom} title={"E-commerce Project"} />
+      <ProjectTemp
+        imageSrc={ecom}
+        title={"E-commerce Project"}
+        gitHubLink={"https://github.com/Emilyleonella/ecom_v2"}
+      />
       <ProjectTemp
         imageSrc={AquaAlert}
         title={"Hopes Hack"}
         link={"https://aquaalert.herokuapp.com/index.html"}
+        gitHubLink={"https://github.com/Emilyleonella/HopeHacks"}
         flipped={true}
       />
       <Up />
