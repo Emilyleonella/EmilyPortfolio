@@ -26,6 +26,7 @@ const Project = () => {
       <ProjectTemp
         imageSrc={ecom}
         title={"E-commerce Project"}
+        link={"https://ecom-react-db.herokuapp.com/"}
         gitHubLink={"https://github.com/Emilyleonella/ecom_v2"}
       />
       <ProjectTemp
