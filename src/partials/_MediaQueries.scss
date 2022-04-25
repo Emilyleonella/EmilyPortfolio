@@ -106,26 +106,24 @@ and (orientation: portrait) {
     .hero-title{
       font-size: 2.6rem;
       right: 5%;
-      bottom: 70%;
+      bottom: 65%;
     }
     .up{
       font-size: 9rem;
   }
 
   .arrow-down{
-    bottom: 2%;
-    font-size: 9rem;
-    padding: 15px;
+    display: none;
   }
   .hero-img{
-    width: 390px;
-    height: 560px;
+    width: 420px;
+    height: 400px;
   }
 
   .hero{
     position: relative;
     width: 390px;
-    height: 560px;
+    height: 400px;
   }
 
   .project-title{
@@ -144,6 +142,8 @@ and (orientation: portrait) {
   .slider-sub{
     font-size: 1rem;
 }
+
+
 }
 
 
@@ -159,6 +159,9 @@ and (orientation: portrait) {
     }
     .slider-sub{
       font-size: 2rem;
+  }
+  .slider-title{
+    font-size: 4rem;
   }
 }
 
@@ -190,4 +193,8 @@ and (orientation: portrait) {
     .slider-sub{
    font-size: 2rem;
  }
+
+ .slider-title{
+  font-size: 4rem;
+}
 }

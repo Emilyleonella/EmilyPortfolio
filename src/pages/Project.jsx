@@ -32,7 +32,7 @@ const Project = () => {
       <ProjectTemp
         imageSrc={AquaAlert}
         title={"Hopes Hack"}
-        link={"https://aquaalert.herokuapp.com/index.html"}
+        link={"https://hope-hacks-aquaalert.herokuapp.com/"}
         gitHubLink={"https://github.com/Emilyleonella/HopeHacks"}
         flipped={true}
       />
